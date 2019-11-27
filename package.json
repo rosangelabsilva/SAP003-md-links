@@ -1,0 +1,24 @@
+{
+  "name": "md-links",
+  "version": "1.0.0",
+  "description": "projeto que tem ferramenta de linha de comando (CLI) assim como a sua própria biblioteca (library) em JavaScript",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosangelabsilva/SAP003-md-links.git"
+  },
+  "author": "Rosangela Silva",
+  "license": "ISC",
+  "bin": {
+    "md-links": "./lib/cli.js"},
+  "bugs": {
+    "url": "https://github.com/rosangelabsilva/SAP003-md-links/issues"
+  },
+  "homepage": "https://github.com/rosangelabsilva/SAP003-md-links#readme",
+  "devDependencies": {
+    "lynt": "^0.5.5"
+  }
+}

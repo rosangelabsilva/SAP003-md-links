@@ -1,4 +1,4 @@
-v8-compile-cache-0;
-coverage;
-node_modules;
-jest_0
+v8-compile-cache-0/;
+coverage/;
+node_modules/;
+jest_0/

@@ -32,9 +32,8 @@ $  md-links caminho-do-arquivo/arquivo.md
 ```node
 > const links = require("md-links");
 
-> console.log(links.mdLinks('Inteligência artificial (por vezes mencionada pela sigla em português IA ou pela sigla em inglês AI - artificial intelligence) é a [inteligência](https://pt.wikipedia.org/wiki/Inteligência) similar à humana exibida por mecanismos ou software, além de também ser um campo de estudo acadêmico.'))
+> console.log(links.mdLinks('Inteligência artificial (por vezes mencionada pela sigla em português IA ou pela sigla em inglês AI - artificial intelligence) é a [inteligência](https://pt.wikipedia.org/wiki/Inteligência) similar à humana exibida por mecanismos ou software, além de também ser um campo de estudo acadêmico.')
 
-> // returns Text: inteligência
-Href: https://pt.wikipedia.org/wiki/Inteligência
+> // returns Text: inteligência Href: https://pt.wikipedia.org/wiki/Inteligência
 
 ​```

@@ -7,7 +7,7 @@ const path = process.argv[2];
 mdLinks(path)
   .then((result) => {
     result.forEach(element => {
-      console.log(`Text:${element.text} \nHref:${element.href} \n`)
+      console.log(`Text:${element.text}, Href:${element.href}`)
     });
   })
   .catch((err) => {
